@@ -1,0 +1,5 @@
+Contact: mailto:hello@toolora.example.com
+Expires: 2027-10-22T00:00:00.000Z
+Preferred-Languages: en
+Canonical: https://toolora.vercel.app/.well-known/security.txt
+# OWNER ACTION REQUIRED: replace the contact above with a real monitored security inbox before using a custom domain.
