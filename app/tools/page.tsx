@@ -1,0 +1,3 @@
+import { tools } from '@/lib/tools'; import { ToolCard, ToolSearch } from '@/components/ui';
+export const metadata={title:'All Free Online Tools',description:'Browse all 45 free Toolora tools: calculators, converters, text, image, PDF, developer, SEO and everyday utilities.',alternates:{canonical:'/tools/'}};
+export default function Page(){return <div><h1 className="text-3xl font-extrabold">All tools</h1><p className="mt-2 text-slate-600 dark:text-slate-300">Every tool is free, needs no signup, and runs in your browser wherever possible.</p><div className="my-6"><ToolSearch/></div><div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">{tools.map(t=><ToolCard key={t.slug} tool={t}/>)}</div></div>}
