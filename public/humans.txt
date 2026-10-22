@@ -1,0 +1,8 @@
+/* TEAM */
+Owner & developer: Nitesh Patel (site owner — confirm display name before launch)
+
+/* TECHNOLOGY */
+Next.js, React, TypeScript, Tailwind CSS, pdf-lib
+
+/* THANKS */
+The open-source maintainers of Next.js, pdf-lib and Lucide.
