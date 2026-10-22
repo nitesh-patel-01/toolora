@@ -1,0 +1,21 @@
+# Toolora
+> Free online tools for the US & UK: calculators, converters, text, image, PDF, developer, SEO and everyday utilities. No signup; most tools run locally in the browser.
+
+## Categories
+- Text Tools: /categories/text-tools/
+- Calculators: /categories/calculators/
+- Converters: /categories/converters/
+- Image Tools: /categories/image-tools/
+- PDF Tools: /categories/pdf-tools/
+- Developer Tools: /categories/developer-tools/
+- SEO Tools: /categories/seo-tools/
+- Everyday Utilities: /categories/everyday-utilities/
+
+## Popular tools
+- Word Counter: /tools/word-counter/
+- PDF Merger: /tools/pdf-merger/
+- Image Compressor: /tools/image-compressor/
+- Loan Calculator: /tools/loan-calculator/
+- JSON Formatter: /tools/json-formatter/
+
+This file is a discovery aid only; it does not guarantee indexing or citation.
