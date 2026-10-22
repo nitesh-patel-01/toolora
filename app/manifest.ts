@@ -1,0 +1,2 @@
+import type { MetadataRoute } from 'next';
+export default function manifest(): MetadataRoute.Manifest { return { name:'Toolora — Free Online Tools', short_name:'Toolora', description:'Free calculators, converters, PDF, image, text and developer tools. No signup.', start_url:'/', display:'standalone', background_color:'#ffffff', theme_color:'#0b6bcb', icons:[{src:'/icon.svg',sizes:'any',type:'image/svg+xml'}] }; }
