@@ -33,7 +33,7 @@ npm run dev
 1. Deploy to production first. 2. Google Search Console → Add property (Domain or URL prefix) → verify via the meta variable above or DNS. 3. Sitemaps → submit `sitemap.xml`. 4. URL Inspection → test the homepage and 3–4 top tools. 5. Bing Webmaster Tools → import from Google or add manually → submit the same sitemap. 6. Review Coverage/Pages and Performance monthly; improve pages with impressions but low clicks (better titles/descriptions) rather than creating duplicate pages.
 
 ## Owner actions before public launch
-- Replace hello@toolora.example.com in Footer, Contact, security.txt with a real monitored inbox.
+- Contact/security email: niteshpatel7479@gmail.com (set in Footer, Contact page and security.txt).
 - Verify/replace the production URL and security.txt expiry (2027-10-22).
 - Have privacy/terms reviewed for your jurisdiction.
 - Pick a final domain, point it in Vercel, and set NEXT_PUBLIC_SITE_URL to match.
