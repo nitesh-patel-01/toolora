@@ -1,0 +1,3 @@
+import Link from 'next/link'; import { guides } from '@/lib/guides';
+export const metadata={title:'Guides — How to Use Online Tools',description:'Step-by-step guides for compressing images, merging PDFs and formatting JSON, with free local tools.',alternates:{canonical:'/guides/'}};
+export default function Page(){return <div><h1 className="text-3xl font-extrabold">Guides</h1><p className="mt-2 text-slate-600">Practical, step-by-step help — each guide links to the free tool that does the job.</p><div className="grid gap-4 mt-6">{guides.map(g=><Link key={g.slug} href={`/guides/${g.slug}/`} className="border rounded-2xl p-5 hover:shadow-soft"><h2 className="font-bold text-lg">{g.title}</h2><p className="text-slate-500 mt-1">{g.description}</p></Link>)}</div></div>}
