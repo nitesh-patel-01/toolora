@@ -1,0 +1,3 @@
+import Link from 'next/link'; import { categories, byCategory } from '@/lib/tools';
+export const metadata={title:'Tool Categories',description:'Browse Toolora tools by category: text, calculators, converters, image, PDF, developer, SEO and everyday utilities.',alternates:{canonical:'/categories/'}};
+export default function Page(){return <div><h1 className="text-3xl font-extrabold">Categories</h1><div className="grid sm:grid-cols-2 gap-4 mt-6">{categories.map(c=><Link key={c.slug} href={`/categories/${c.slug}/`} className="border rounded-2xl p-5 hover:shadow-soft"><h2 className="font-bold text-lg">{c.name}</h2><p className="text-slate-500 mt-1">{c.description}</p><p className="text-sm mt-2">{byCategory(c.slug).length} tools</p></Link>)}</div></div>}
